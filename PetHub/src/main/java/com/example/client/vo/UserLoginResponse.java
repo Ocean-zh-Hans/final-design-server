@@ -4,7 +4,7 @@ package com.example.client.vo;
 import lombok.Getter;
 
 @Getter
-public class LoginResponseData {
+public class UserLoginResponse {
 
     private Integer userId;
 

@@ -1,18 +1,17 @@
 package com.example.client.service;
 
 import com.example.client.common.ClientResponse;
-import com.example.client.vo.LoginResponseData;
-import com.example.client.vo.UserRegisterVO;
+import com.example.client.vo.UpdateUserAccountRequest;
 
 public interface IPersonalInfoService {
 
     public ClientResponse loginLogic(String username, String password);
 
-    public ClientResponse registerLogic(UserRegisterVO registerVO);
+    public ClientResponse registerLogic(UpdateUserAccountRequest registerVO);
 
     ClientResponse splashLogic(int userId, String updateAt);
 
     ClientResponse resetPerpLogic(String username);
 
-    ClientResponse resetLogic(UserRegisterVO registerVO);
+    ClientResponse resetLogic(UpdateUserAccountRequest registerVO);
 }

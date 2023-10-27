@@ -1,11 +1,9 @@
 package com.example.client.common;
 
 
-import com.example.client.vo.LoginResponseData;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import lombok.Getter;
-import org.apache.ibatis.jdbc.Null;
 
 /**
  * 封装前端返回的统一实体类

@@ -3,7 +3,7 @@ package com.example.client.vo;
 import lombok.Getter;
 
 @Getter
-public class UserRegisterVO {
+public class UpdateUserAccountRequest {
     private Integer userId;
     private String username;
     private String password;
@@ -11,10 +11,10 @@ public class UserRegisterVO {
     private String question;
     private String answer;
 
-    public UserRegisterVO() {
+    public UpdateUserAccountRequest() {
     }
 
-    public UserRegisterVO(Integer userId, String username, String password, String confirm, String question, String answer) {
+    public UpdateUserAccountRequest(Integer userId, String username, String password, String confirm, String question, String answer) {
         this.userId = userId;
         this.username = username;
         this.password = password;
